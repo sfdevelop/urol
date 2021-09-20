@@ -1,0 +1,3 @@
+# Project exclude paths
+/bower_components/
+/node_modules/

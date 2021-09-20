@@ -1,0 +1,23 @@
+{
+  "name": "urol",
+  "description": "Сайт каталог запчасти",
+  "main": "",
+  "authors": [
+    "sfdevelop"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "Jquery#^3.5.1",
+    "slick-carousel": "^1.8.1",
+    "select2": "~4.0"
+  }
+}
