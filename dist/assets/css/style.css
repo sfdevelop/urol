@@ -8695,6 +8695,10 @@ textarea.form-control {
     font-size: 18px;
 }
 
+.slider img {
+    width: 65%;
+}
+
 .item {
     height: 100% !important;
 }
@@ -8828,6 +8832,199 @@ footer ul {
     list-style: none;
 }
 
+.mt-80 {
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .menu_head a {
+        font-size: 70%;
+    }
+
+    .menu_head .head-phone {
+        width: 120px;
+        text-align: right;
+    }
+
+    .menu_head .logo img {
+        max-width: 120px;
+    }
+
+    .menu_head ul li a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .slider .display-1 {
+        font-size: 60px;
+    }
+
+    .slider p, .slider ul {
+        font-size: 90%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slider .display-1 {
+        font-size: 60px;
+    }
+
+    .slider p, .slider ul {
+        font-size: 90%;
+    }
+
+    .menu_head a {
+        font-size: 70%;
+    }
+
+    .menu_head .head-phone {
+        width: 120px;
+        text-align: right;
+    }
+
+    .menu_head .logo img {
+        max-width: 120px;
+    }
+
+    .menu_head ul li a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .slider img {
+        width: 55%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    footer {
+        font-size: 85%;
+    }
+
+    footer .link {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .log-sm {
+        width: 90px;
+    }
+
+    .slider .display-1 {
+        font-size: 40px;
+    }
+
+    .slider p, .slider ul {
+        font-size: 80%;
+    }
+
+    .slider img {
+        width: 70%;
+        float: right;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .link {
+        display: none;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .log-sm {
+        width: 90px;
+    }
+
+    .slider .display-1 {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    .slider p, .slider ul {
+        font-size: 80%;
+    }
+
+    .slider .slider-img {
+        width: 100%;
+        float: right;
+        margin-top: 50px;
+        display: none;
+    }
+
+    .slider .img-back {
+        height: 60vw;
+    }
+
+    .mt-80 {
+        margin-top: 0px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .link {
+        display: none;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .log-sm {
+        width: 90px;
+    }
+
+    .slider .slider-img {
+        width: 100%;
+        float: right;
+        margin-top: 50px;
+        display: none;
+    }
+
+    .slider .img-back {
+        height: 60vw;
+    }
+
+    .mt-80 {
+        margin-top: 0px;
+    }
+
+    .slider .display-1 {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    .slider p, .slider ul {
+        font-size: 80%;
+    }
+
+    .slider ul {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .link {
+        display: none;
+    }
+
+    footer .logo {
+        margin-bottom: 30px;
+    }
+}
+
 @media (min-width: 992px) {
     .dropdown-menu .dropdown-toggle:after {
         border-top: .3em solid transparent;
@@ -8868,7 +9065,7 @@ footer ul {
 
 @font-face {
     font-family: "Facon";
-  src: url("../fonts/facon.otf");
+  src: url("../fonts/USSR STENCIL/USSR STENCIL.otf");
 }
 
 body {

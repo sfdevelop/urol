@@ -90,6 +90,9 @@
     list-style-image: url(../i/ul.png);
     font-size: 18px;
   }
+  img{
+    width: 65%;
+  }
 }
 
 .item {
@@ -211,4 +214,7 @@ footer{
   ul{
     list-style: none;
   }
+}
+.mt-80{
+  margin-top: 30px;
 }
