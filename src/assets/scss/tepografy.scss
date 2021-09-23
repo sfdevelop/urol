@@ -39,3 +39,41 @@ h2 {
     color: $orange;
   }
 }
+
+.breadcrumb-top {
+  h1 {
+    font-family: Facon;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    color: $white;
+  }
+}
+
+.content {
+  h2 {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    color: $orange;
+    font-style: normal;
+  }
+
+  p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    color: $black;
+  }
+
+  h3 {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: $orange;
+    font-style: normal;
+  }
+}

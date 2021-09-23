@@ -5,6 +5,14 @@
   border: none;
 }
 
+input {
+  border-radius: 15px!important;
+  background: #fff;
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border: none!important;
+  font-size: 85%;
+}
+
 .navbar-toggler .line {
   width: 100%;
   float: left;
@@ -90,7 +98,8 @@
     list-style-image: url(../i/ul.png);
     font-size: 18px;
   }
-  img{
+
+  img {
     width: 65%;
   }
 }
@@ -115,7 +124,8 @@
     font-size: 23px;
     text-align: left;
     color: $black;
-    .old{
+
+    .old {
       font-weight: 300;
       font-size: 16px;
       text-align: left;
@@ -137,6 +147,7 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
   padding-left: 15px;
   padding-right: 15px;
+  color: $white;
 }
 
 .stick-new {
@@ -145,6 +156,7 @@
   color: #fff;
   background: #00ce45;
 }
+
 .stick-sale {
   font-size: 18px;
   text-align: left;
@@ -173,33 +185,39 @@
     }
   }
 }
-.subscribe_box{
+
+.subscribe_box {
   background-image: url(../i/subscribe_bottom.png);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
-  h2{
+
+  h2 {
     color: $white;
   }
-  ul{
+
+  ul {
     color: $white;
     list-style-image: url(../i/ul.png);
     font-size: 18px;
   }
 }
-.mt-120{
+
+.mt-120 {
   padding-top: 200px;
 }
-.news_title{
+
+.news_title {
   font-family: Montserrat;
   font-weight: normal;
   font-size: 20px;
   text-align: left;
   color: $black;
 }
-.news_footer{
-  a{
+
+.news_footer {
+  a {
     font-family: Montserrat;
     font-weight: normal;
     text-decoration: underline;
@@ -208,13 +226,142 @@
     color: $orange;
   }
 }
-footer{
+
+footer {
   background: $blue-black;
   color: $white;
-  ul{
+
+  ul {
     list-style: none;
   }
 }
-.mt-80{
+
+.mt-80 {
   margin-top: 30px;
+}
+
+.mt-180 {
+  margin-top: 70px;
+}
+
+.breadcrumb-top {
+  background-image: url(../i/bread-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+.breadcrumb {
+  background: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border: none;
+
+
+  a {
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 12px;
+    text-align: left;
+    color: $white;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  width: 15px;
+  height: 10px;
+  content: '';
+  background: url(../i/setting.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+
+.pagination {
+  .page-link {
+    border: none !important;
+
+    &.active {
+      color: $orange;
+    }
+  }
+}
+
+.items {
+  h3 {
+    font-family: "Facon";
+    font-weight: normal;
+    font-size: 35px;
+    text-align: left;
+    color: $blue-black;
+
+    span {
+      color: $orange;
+    }
+  }
+
+  &__box {
+    h5 {
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 17px;
+      text-align: left;
+      color: $black;
+    }
+
+    p {
+      font-size: 85%;
+    }
+
+    a {
+      color: $orange;
+      font-size: 87%;
+      text-decoration: underline;
+    }
+  }
+}
+
+.contacts {
+  h3 {
+    font-family: "Facon";
+    font-weight: normal;
+    font-size: 35px;
+    text-align: left;
+    color: $blue-black;
+
+    span {
+      color: $orange;
+    }
+  }
+}
+.contacts{
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+    list-style: none;
+  }
+}
+.product{
+  .price{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    color: $blue!important;
+  }
+  .brand{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: $black;
+  }
+  .text-blue{
+    color: $blue;
+  }
 }

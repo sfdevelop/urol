@@ -5,5 +5,6 @@
 //= ../../../node_modules/bootstrap/js/dist/collapse.js
 
 //= ../../../bower_components/slick-carousel/slick/slick.js
+//= ../../../bower_components/fancyBox/dist/jquery_fancybox.js
 
 //= custom/sfdevelop.js
